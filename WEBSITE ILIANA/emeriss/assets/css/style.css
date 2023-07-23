@@ -277,6 +277,9 @@ table tr:last-child td, table tr:last-child th {
 	}
 }
 @media (min-width: 1200px) and (max-width: 1499px) {
+	.col-lg-4.banner-wrapp .banner {
+		display: none;
+	}
 	.auto-clear .col-lg-1:nth-child(12n+1) {
 		clear: left;
 	}
@@ -8595,7 +8598,9 @@ body.vertical-menu-open .vertical-menu-overlay {
 .item-banner.style7 .inner {
 	background-image: url(../images/logo-juliyan.jpg);
 	width: 100%;
-	height: 12vh;
+	height: 130px;
+	padding-top: 0px;
+	padding-bottom: 10px;
 }
 .item-banner.style7 .banner-content {
 	padding-top: 58px;
